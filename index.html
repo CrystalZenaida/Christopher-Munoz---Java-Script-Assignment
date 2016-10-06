@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<center>
+
+	
+<p><br><br>What is a Skeleton's favorite instrument?</p>
+		
+<img id="doot" src="images/doot1.gif">
+
+   <audio id=audio style="visibility:hidden;">
+	   <source src="sound/hitsound.wav" type='audio/wav'>
+	</audio>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+   
+    <script>
+	var hoverArea = document.getElementById('doot');
+	var audio = document.getElementById('audio');
+	hoverArea.onmouseover= function(){
+		audio.play();
+	}
+    </script>
+
+</center>
+</body>
+</html>
